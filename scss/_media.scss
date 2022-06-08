@@ -1,5 +1,17 @@
 @media (min-width: 1260px) and (max-width: 1440px){
-  //button {
-  //  padding: 10px 20px;
-  //}
+  button {
+    padding: 10px 20px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email button {
+    padding: 10px 30px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email {
+    height: 60px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email input {
+    height: 60px;
+  }
 }

@@ -170,6 +170,86 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+.featured {
+  margin-bottom: 140px;
+  background-color: #F9F9F9;
+}
+.featured .wrapper-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+.featured .wrapper-title h2 {
+  padding-bottom: 10px;
+}
+.featured .wrapper-title .wrapper-paragraph {
+  width: 50.6%;
+}
+.featured .wrapper-title .wrapper-paragraph p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+  padding-bottom: 70px;
+}
+.featured .wrapper-featured-blocks {
+  padding-bottom: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info {
+  padding: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info .block-icon {
+  background-color: #FE753F;
+  background-color: rgba(254, 117, 63, 0.1);
+  border-radius: 5px;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info .block-icon i {
+  color: #FE753F;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.146vw;
+  line-height: 33px;
+  color: #030A1B;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info p {
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+}
+.featured .wrapper-featured-blocks .featured-blocks-column .block-info + .block-info {
+  margin-top: 30px;
+}
+.featured .wrapper-featured-blocks .featured-blocks-img {
+  width: 30%;
+}
+.featured .wrapper-featured-blocks .featured-blocks-img img {
+  width: 100%;
+}
+
 .subscribe {
   padding-bottom: 140px;
   position: relative;
@@ -346,6 +426,24 @@ button {
 }
 .footer .wrapper-footer .footer-blocks .wrapper-content .footer-navigation li + li {
   padding-top: 15px;
+}
+
+@media (min-width: 1260px) and (max-width: 1440px) {
+  button {
+    padding: 10px 20px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email button {
+    padding: 10px 30px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email {
+    height: 60px;
+  }
+
+  .subscribe .wrapper-subscribe .wrapper-email input {
+    height: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
