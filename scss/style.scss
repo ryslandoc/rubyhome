@@ -55,6 +55,29 @@
   }
 }
 
+.partners {
+  padding-bottom: 140px;
+
+  .wrapper-container {
+    .wrapper-title {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 65px;
+    }
+
+    .wrapper-partners-blocks {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .wrapper-partners-block {
+
+      }
+    }
+  }
+}
+
 .subscribe {
   padding-bottom: 140px;
   position: relative;
