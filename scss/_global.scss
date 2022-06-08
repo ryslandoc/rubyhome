@@ -1,0 +1,57 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Font */
+$main-font: 'Poppins', sans-serif;
+
+/* Colors */
+$basic-color: #030A1B;
+$decoration-color-text: #FE753F;
+$button-color: #2E6EFF;
+
+h2 {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 66px;
+  color: $basic-color;
+  position: relative;
+
+  &:before {
+    content: url("../images/decorative-img.png");
+    position: absolute;
+    top: -3px;
+    left: -8px;
+  }
+}
+
+p {
+  font-family: $main-font;
+  color: $basic-color;
+  font-style: normal;
+  opacity: 0.7;
+}
+
+button {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.833vw;
+  line-height: 24px;
+  border: none;
+  color: white;
+  background-color: $button-color;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.wrapper-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
