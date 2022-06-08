@@ -55,6 +55,119 @@
   }
 }
 
+.subscribe {
+  padding-bottom: 140px;
+  position: relative;
+
+  .wrapper-subscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #433E89;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 208px;
+      height: 208px;
+      left: -130px;
+      top: 30px;
+      background: #FFFFFF;
+      opacity: 0.1;
+      border-radius: 50%;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 208px;
+      height: 208px;
+      right: 60px;
+      bottom: -135px;
+      background: #FFFFFF;
+      opacity: 0.1;
+      border-radius: 50%;
+    }
+
+    .wrapper-text {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px 0;
+
+      h2 {
+        padding-bottom: 15px;
+        color: #FFFFFF;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      .wrapper-paragraph {
+        width: 44%;
+
+        p {
+          font-size: 0.833vw;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .wrapper-email {
+      display: flex;
+      align-items: center;
+      width: 51.6%;
+      background: #FFFFFF;
+      border-radius: 10px;
+      margin-bottom: 70px;
+      height: 70px;
+
+      input {
+        width: 100%;
+        height: 70px;
+        border: none;
+        background-color: transparent;
+        padding: 0 30px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.833vw;
+        line-height: 24px;
+        color: $basic-color;
+
+        &:focus-visible {
+          outline: none;
+        }
+
+        &::placeholder {
+          font-family: $main-font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.833vw;
+          line-height: 24px;
+          color: $basic-color;
+          opacity: 0.5;
+        }
+      }
+
+      button {
+        padding: 16px 41px;
+        margin-right: 7px;
+      }
+    }
+  }
+}
+
 .footer {
   padding-bottom: 100px;
 
