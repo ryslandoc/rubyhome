@@ -170,6 +170,124 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+.properties {
+  padding-bottom: 140px;
+}
+.properties .wrapper-properties {
+  width: 100%;
+}
+.properties .wrapper-properties .wrapper-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.properties .wrapper-properties .wrapper-title a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 24px;
+  color: #FE753F;
+}
+.properties .wrapper-properties .wrapper-properties-blocks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block {
+  margin-bottom: 30px;
+  width: 31%;
+  box-shadow: 0 8px 70px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-img {
+  width: 100%;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-img img {
+  width: 100%;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info {
+  padding: 30px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-title h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.146vw;
+  line-height: 33px;
+  color: #030A1B;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-title .favorites {
+  cursor: pointer;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-title .favorites i {
+  color: #BBBBBB;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-title .favorites.active i {
+  color: #E61E14;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-location {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-location i {
+  opacity: 0.5;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-location p {
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-points {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-points .point i {
+  opacity: 0.5;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-points .point span {
+  padding-left: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.729vw;
+  line-height: 21px;
+  color: #030A1B;
+  opacity: 0.9;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-points .point + .point {
+  padding-left: 20px;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-price span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.146vw;
+  line-height: 33px;
+  color: #FE753F;
+}
+.properties .wrapper-properties .wrapper-properties-blocks .properties-block .properties-info .properties-price button {
+  font-weight: 500;
+  font-size: 0.833vw;
+  line-height: 24px;
+  border-radius: 5px;
+}
+
 .featured {
   margin-bottom: 140px;
   background-color: #F9F9F9;
