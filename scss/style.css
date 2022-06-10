@@ -151,9 +151,155 @@ button {
   opacity: 0.7;
   transition: all 0.5s;
 }
+.header .wrapper-header .wrapper-nav .nav-lists .nav-list a.active {
+  color: #FE753F;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #FE753F;
+}
 .header .wrapper-header .wrapper-nav .nav-lists .nav-list a:hover {
   transition: all 0.5s;
   color: #FE753F;
+}
+
+.header-content {
+  padding-bottom: 140px;
+}
+.header-content .wrapper-header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-content .wrapper-header-content .header-text {
+  width: 45%;
+  padding-top: 50px;
+}
+.header-content .wrapper-header-content .header-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.177vw;
+  line-height: 120%;
+  color: #030A1B;
+  padding-bottom: 30px;
+}
+.header-content .wrapper-header-content .header-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.938vw;
+  line-height: 27px;
+  padding-bottom: 40px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs {
+  position: relative;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs {
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 700px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .nav-pills {
+  padding: 15px 0 0 30px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .nav-pills .nav-item .nav-link {
+  background-color: transparent;
+  color: #030A1B;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938vw;
+  line-height: 27px;
+  padding: 0;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .nav-pills .nav-item .nav-link.active {
+  color: #FE753F;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .nav-pills .nav-item + .nav-item {
+  margin-left: 40px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content {
+  padding: 30px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane {
+  width: 100%;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts {
+  width: 21%;
+  border-right: 1px solid #BBBBBB;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .tab-parts:last-child {
+  border-right: unset;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-title h4 {
+  padding-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+  color: #030A1B;
+  opacity: 0.7;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-title i {
+  color: #030A1B;
+  opacity: 0.7;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-select {
+  width: 100%;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-select .form-select {
+  cursor: pointer;
+  width: 90%;
+  border: none;
+  padding: 0;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.146vw;
+  line-height: 33px;
+  color: #030A1B;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-select .form-select .btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-select .form-select .btn:focus-visible {
+  outline: none;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts .part-select .form-select:focus {
+  box-shadow: unset;
+  border-color: unset;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts button {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 0.833vw;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts:nth-child(3) {
+  border-right: unset;
+}
+.header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs .tab-content .tab-pane .wrapper-tab-parts .tab-parts:last-child {
+  border-right: unset;
+}
+.header-content .wrapper-header-content .header-img {
+  width: 45%;
+}
+.header-content .wrapper-header-content .header-img img {
+  width: 100%;
 }
 
 .partners {
@@ -368,6 +514,119 @@ button {
   width: 100%;
 }
 
+.reviews {
+  padding-bottom: 140px;
+}
+.reviews .wrapper-reviews .wrapper-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews .wrapper-reviews .wrapper-title .wrapper-title-top {
+  padding-bottom: 10px;
+}
+.reviews .wrapper-reviews .wrapper-title .wrapper-title-top span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FE753F;
+}
+.reviews .wrapper-reviews .wrapper-title .wrapper-title-bottom {
+  padding-bottom: 70px;
+}
+.reviews .wrapper-reviews .wrapper-carousel {
+  width: 100%;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item {
+  margin: 0 30px 0 0;
+  padding: 30px;
+  border: 2px solid rgba(254, 117, 63, 0.1);
+  border-radius: 10px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info {
+  display: flex;
+  align-items: center;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info .wrapper-img {
+  width: 70px;
+  height: 70px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info .wrapper-img img {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info .wrapper-name {
+  padding-left: 30px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info .wrapper-name h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.146vw;
+  line-height: 33px;
+  color: #030A1B;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-personal-info .wrapper-name p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-decoration {
+  width: 64px;
+  height: 64px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-info-reviews .wrapper-decoration img {
+  width: 100%;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-reviews .review-item .wrapper-review p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 24px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-dots {
+  padding-top: 40px;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-dots .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-dots .slick-dots .slick-active button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  color: #2E6EFF;
+  background-color: #2E6EFF;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-dots .slick-dots li button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  color: #EDEDED;
+  background-color: #EDEDED;
+}
+.reviews .wrapper-reviews .wrapper-carousel .carousel-dots .slick-dots li + li {
+  margin-left: 10px;
+}
+
 .subscribe {
   padding-bottom: 140px;
   position: relative;
@@ -546,6 +805,11 @@ button {
   padding-top: 15px;
 }
 
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .header-content .wrapper-header-content .header-text .header-tabs .wrapper-tabs {
+    width: 900px;
+  }
+}
 @media (min-width: 1260px) and (max-width: 1440px) {
   button {
     padding: 10px 20px;
