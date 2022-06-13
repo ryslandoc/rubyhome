@@ -8,6 +8,24 @@ triggerTabList.forEach(function (triggerEl) {
     })
 })
 
+$(function () {
+    $(document).on('click', '.menu-btn', function () {
+        let wrapper = $('.wrapper-nav')
+        let body = $('.body')
+        if (wrapper.hasClass('open')) {
+            body.addClass('active-body');
+        } else {
+            body.removeClass('active-body');
+        }
+        $(wrapper).toggleClass('open');
+    });
+
+    const navMenu = document.querySelector("#navMenu");
+    navMenu.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+});
+
 $(document).ready(function () {
     $('.carousel-reviews').slick({
         dots: true,
@@ -19,27 +37,11 @@ $(document).ready(function () {
         appendDots: '.carousel-dots',
         responsive: [
             {
-                // breakpoint: 1024,
-                // settings: {
-                //     slidesToShow: 3,
-                //     slidesToScroll: 3,
-                //     infinite: true,
-                //     dots: true
-                // }
-            },
-            {
-                // breakpoint: 600,
-                // settings: {
-                //     slidesToShow: 2,
-                //     slidesToScroll: 2
-                // }
-            },
-            {
-                // breakpoint: 480,
-                // settings: {
-                //     slidesToShow: 1,
-                //     slidesToScroll: 1
-                // }
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
             }
         ]
     });
